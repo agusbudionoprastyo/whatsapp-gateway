@@ -14,7 +14,7 @@
                                 </x-alert>
                             @endif
                             <h5 class="card-title">Sign In</h5>
-                            <p class="card-text mb-5">Hi, welcome to MPWA MD version.</p>
+                            <p class="card-text mb-5">Hi, welcome to Dafam Whatsapp Gateway</p>
                             <form class="form-body" action="{{ route('login') }}" method="POST">
                                 @csrf
                                 <div class="row g-3">
