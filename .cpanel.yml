@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dafm5634/public_html/whatsappgateway
+    - /bin/cp -r * $DEPLOYPATH
