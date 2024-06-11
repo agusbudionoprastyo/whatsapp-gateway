@@ -1,6 +1,6 @@
                                <li class="my-4">
-                                   <select class="form-control select2" id="device_idd" name="device_id">
-                                       <option data-icon="bi bi-whatsapp" value="">Selected Devices</option>
+                                   <select class="form-control" id="device_idd" name="device_id">
+                                       <option value="" disabled selected>Devices</option>
                                        @foreach ($numbers as $device)
                                            <option data-icon="bi {{ $device->icon_class }}" value="{{ $device->id }}">{{ $device->body }} ({{ $device->status }})</option>
                                        @endforeach
