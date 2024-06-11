@@ -1,8 +1,16 @@
                                <li class="my-4">
-                                   <select class="form-control" id="device_idd" name="device_id">
+                               <select class="form-control" id="device_idd" name="device_id">
                                        <option value="" disabled selected>Devices</option>
                                        @foreach ($numbers as $device)
-                                           <option data-icon="bi {{ $device->icon_class }}" value="{{ $device->id }}">{{ $device->body }} ({{ $device->status }})</option>
+                                           {{-- if session has selectedDevice and match = --}}
+                                           @if (Session::has('selectedDevice') && Session::get('selectedDevice')['device_body'] == $device->body)
+                                               {{-- make variable selected true --}}
+                                               <option value="{{ $device->id }}" selected>{{ $device->body }}
+                                                   ({{ $device->status }})</option>
+                                           @else
+                                               <option value="{{ $device->id }}">{{ $device->body }}
+                                                   ({{ $device->status }})</option>
+                                           @endif
                                        @endforeach
                                    </select>
                                </li>
