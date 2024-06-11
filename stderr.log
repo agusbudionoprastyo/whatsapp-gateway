@@ -1,0 +1,43 @@
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+Closing stale open session for new outgoing prekey bundle
+/home/dafm5634/public_html/whatsappgateway/node_modules/@whiskeysockets/baileys/lib/Utils/generics.js:137
+            .then(() => reject(new boom_1.Boom('Timed Out', {
+                               ^
+
+Error: Timed Out
+    at /home/dafm5634/public_html/whatsappgateway/node_modules/@whiskeysockets/baileys/lib/Utils/generics.js:137:32 {
+  data: {
+    stack: 'Error\n' +
+      '    at promiseTimeout (/home/dafm5634/public_html/whatsappgateway/node_modules/@whiskeysockets/baileys/lib/Utils/generics.js:132:19)\n' +
+      '    at waitForMessage (/home/dafm5634/public_html/whatsappgateway/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:114:53)\n' +
+      '    at query (/home/dafm5634/public_html/whatsappgateway/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:136:22)\n' +
+      '    at Object.profilePictureUrl (/home/dafm5634/public_html/whatsappgateway/node_modules/@whiskeysockets/baileys/lib/Socket/chats.js:442:30)\n' +
+      '    at getPpUrl (/home/dafm5634/public_html/whatsappgateway/server/whatsapp.js:1:16446)\n' +
+      '    at Object.connectToWhatsApp (/home/dafm5634/public_html/whatsappgateway/server/whatsapp.js:1:5409)\n' +
+      '    at Socket.<anonymous> (/home/dafm5634/public_html/whatsappgateway/server.js:56:8)\n' +
+      '    at Socket.emit (node:events:514:28)\n' +
+      '    at Socket.emitUntyped (/home/dafm5634/public_html/whatsappgateway/node_modules/socket.io/dist/typed-events.js:69:22)\n' +
+      '    at /home/dafm5634/public_html/whatsappgateway/node_modules/socket.io/dist/socket.js:704:39'
+  },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 408,
+    payload: {
+      statusCode: 408,
+      error: 'Request Time-out',
+      message: 'Timed Out'
+    },
+    headers: {}
+  }
+}
+
+Node.js v20.9.0
