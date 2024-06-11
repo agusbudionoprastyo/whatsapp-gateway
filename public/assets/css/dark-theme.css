@@ -1,7 +1,7 @@
 html.dark-theme body{
   
     color: #d7d7d7;
-    background-color: #1a2232;
+    background-color: #FF2B85;
 
 }
 
@@ -20,7 +20,7 @@ html.dark-theme .radial-charts img {
 html.dark-theme .sidebar-wrapper,
 html.dark-theme .sidebar-wrapper .sidebar-header {
 
-    background-color: #1a2232;
+    background-color: #FF2B85;
 
 }
 
@@ -72,7 +72,7 @@ html.dark-theme .sidebar-wrapper .simplebar-scrollbar:before {
 html.dark-theme .top-header .navbar {
   
     color: #fcfcfc;
-    background-color: #1a2232;
+    background-color: #FF2B85;
     border-bottom: 1px solid rgb(255 255 255 / 12%);
 
 }
@@ -132,11 +132,11 @@ html.dark-theme .ff_fileupload_wrap .ff_fileupload_dropzone, html.dark-theme .im
 }
 
 html.dark-theme .picker__input {
-    background-color: #1a2232 !important;
+    background-color: #FF2B85 !important;
 }
 
 html.dark-theme .picker__holder {
-    background: #1a2232;
+    background: #FF2B85;
     border: 1px solid rgb(255 255 255 / 12%);
 }
 
@@ -144,22 +144,22 @@ html.dark-theme .picker__holder {
 html.dark-theme  .picker__button--today, html.dark-theme  .picker__button--clear, html.dark-theme  .picker__button--close {
 
     border: 1px solid rgb(255 255 255 / 12%);
-    background: #1a2232;
+    background: #FF2B85;
 
 }
 
 
 html.dark-theme .select2-container--bootstrap4 .select2-selection {
-	background-color: #1a2232;
+	background-color: #FF2B85;
 	border: 1px solid rgb(255 255 255 / .35)
 }
 html.dark-theme .select2-dropdown {
-	background-color: #1a2232;
+	background-color: #FF2B85;
 	border: 1px solid rgb(255 255 255 / 38%)
 }
 html.dark-theme .select2-search--dropdown .select2-search__field {
 	border: 1px solid rgb(255 255 255 / 34%);
-	background-color: #1a2232;
+	background-color: #FF2B85;
 	color: #e3dfdf
 }
 html.dark-theme .select2-container--bootstrap4 .select2-selection--multiple .select2-selection__choice {
@@ -172,7 +172,7 @@ html.dark-theme .select2-container--bootstrap4 .select2-selection--multiple .sel
 	color: #e6e1e1
 }
 html.dark-theme .select2-container--bootstrap4 .select2-dropdown .select2-results__option[aria-selected=true] {
-	background-color: #1a2232;
+	background-color: #FF2B85;
 }
 
 
@@ -199,7 +199,7 @@ html.dark-theme .modal-footer {
 }
 
 html.dark-theme .nav-tabs .nav-item.show .nav-link, html.dark-theme .nav-tabs .nav-link.active {
-    background-color: #1a2232;
+    background-color: #FF2B85;
 }
 
 html.dark-theme .nav-tabs {
@@ -258,7 +258,7 @@ html.dark-theme  .page-item.disabled .page-link {
 html.dark-theme  .productlist .product-box {
 
     border: 1px solid rgb(255 255 255 / 12%);
-    background-color: #1a2232;
+    background-color: #FF2B85;
 
 }
 
@@ -266,7 +266,7 @@ html.dark-theme  .productlist .product-box {
 html.dark-theme .form-control, html.dark-theme .form-select {
 
     color: #fcfcfc;
-    background-color: #1a2232;
+    background-color: #FF2B85;
     border: 1px solid rgb(255 255 255 / 12%);
 
 }
@@ -288,7 +288,7 @@ html.dark-theme  .form-select:disabled {
 
 html.dark-theme .bootstrap-tagsinput {
     color: #fcfcfc;
-    background-color: #1a2232;
+    background-color: #FF2B85;
     border: 1px solid rgb(255 255 255 / 12%);
 
 }
@@ -373,7 +373,7 @@ html.dark-theme .text-option {
 }
 
 html.dark-theme .offcanvas {
-    background-color: #1a2232;
+    background-color: #FF2B85;
     
 }
 
@@ -761,7 +761,7 @@ html.dark-theme .apexcharts-text tspan {
 @media screen and (max-width:1024px)  {
 
     html.dark-theme .top-header .navbar .full-searchbar {
-        background-color: #1a2232;
+        background-color: #FF2B85;
         border-bottom: 1px solid rgb(255 255 255 / 15%);
         background-clip: border-box;
     }
