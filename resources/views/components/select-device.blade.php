@@ -1,6 +1,6 @@
                                <li class="my-4">
                                    <select class="form-control" id="device_idd" name="device_id">
-                                       <option value="" disabled selected>Select Device</option>
+                                       <option value="" disabled selected><i class="bi bi-whatsapp"></i></option>
                                        @foreach ($numbers as $device)
                                            {{-- if session has selectedDevice and match = --}}
                                            @if (Session::has('selectedDevice') && Session::get('selectedDevice')['device_body'] == $device->body)
