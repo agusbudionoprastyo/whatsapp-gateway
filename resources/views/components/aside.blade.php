@@ -7,7 +7,7 @@
                <div>
                    <h4 class="logo-text"></h4>
                </div>
-               <div class="parent-icon"><i class="bi bi-three-dots-vertical"></i>
+               <div class="toggle-icon ms-auto"><i class="bi bi-three-dots-vertical"></i>
                </div>
            </div>
            <!--navigation-->
