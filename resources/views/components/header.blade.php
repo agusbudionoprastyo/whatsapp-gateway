@@ -1,7 +1,7 @@
  <header class="top-header">        
         <nav class="navbar navbar-expand gap-3 align-items-center">
           <div class="mobile-toggle-icon fs-3">
-              <i class="bi bi-list"></i>
+              <i class="bi bi-three-dots-vertical"></i>
             </div>
             <form class="searchbar">
                 <div class="position-absolute top-50 translate-middle-y search-icon ms-3"><i class="bi bi-search"></i></div>
